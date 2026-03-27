@@ -31,4 +31,10 @@
     "vite": "^6.2.0",
     "vite-tsconfig-paths": "^5.1.4"
   }
-}
+},
+,
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  }
